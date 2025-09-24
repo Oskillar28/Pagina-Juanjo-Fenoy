@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="google-site-verification" content="evWuXuFbUdJz7ftKD-1N7A7g3Angv77JYXgB_9GPkqg" />
+    <meta charset="UTF-8">
+    <title>Página Juanjo</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .galeria img { margin: 15px auto; display: block; border: 2px solid #ccc; }
+        form { max-width: 500px; margin: 30px auto; text-align: left; }
+        label { display: block; margin-top: 10px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        .actions { margin-top: 15px; text-align: center; }
+        .btn { padding: 10px 20px; border: none; cursor: pointer; }
+        .primary { background: #007BFF; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Página de Juanjo</h1>
+
+    <div class="galeria">
+        <img src="img/fenoymoroso.jpg" width="500" height="300" alt="foto1">
+        <img src="img/DEUDORJUANJOFENOY.JPG" width="500" height="300" alt="foto2">
+        <img src="img/DEUDORJUANJOFENOY1.JPG" width="500" height="300" alt="foto3">
+        <img src="img/FIN DE AÑO AND BUGGY 029.JPG" width="500" height="300" alt="foto4">
+    </div>
+
+    <h2>Contacto</h2>
+    <!-- En HTML puro no se procesan los datos ni se envían emails -->
+    <form>
+        <label>Nombre
+            <input type="text" name="nombre" required>
+        </label>
+        <label>Email
+            <input type="email" name="email" required>
+        </label>
+        <label>Mensaje
+            <textarea name="mensaje" rows="5" required></textarea>
+        </label>
+        <div class="actions">
+            <button class="btn primary" type="button">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
