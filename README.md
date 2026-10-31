@@ -10,20 +10,5 @@ Proyecto de práctica de HTML y Markdown para 2º de SMX.
 <img src="img/DEUDORJUANJOFENOY1.jpg" width="500" alt="Foto de Juanjo">
 <img src="img/JUANJOFENOY.jpg" width="500" alt="Foto de Juanjo">
 <img src="img/fenoymoroso.jpg" width="500" alt="Foto de Juanjo">
-<img src="img/JUANJO1.jpg" width="500" alt="Foto de Juanjo">
-<img src="img/JUANJO1.jpg" width="500" alt="Foto de Juanjo">
+<img src="img/FIN DE AÑO AND BUGGY 029.jpg" width="500" alt="Foto de Juanjo">
 
-
-## Contacto
-
-| Campo   | Descripción                        |
-|---------|------------------------------------|
-| Nombre  | Tu nombre                          |
-| Email   | Tu correo electrónico              |
-| Mensaje | Lo que quieras contarme            |
-
-</div>
-
----
-
-> **Nota técnica:** GitHub no ejecuta formularios, estilos `<style>` ni JavaScript dentro de un README; solo admite Markdown y un subconjunto de HTML (títulos, imágenes, tablas, alineación). Para tener el formulario funcionando hace falta una página publicada con GitHub Pages o un servidor con PHP.
